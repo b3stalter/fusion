@@ -20,14 +20,6 @@ export class AppComponent {
     ['Bryan']
   ];
 
-  constructor() {
-    // this.stages.forEach((stage) => {
-    //   this.stageList.push([]);
-    // });
-    // console.log(this.stageList);
-  }
-
-
   addItem(stage: any, item: any) {
     console.log(stage, item);
     this.stageList[stage].push(item);
